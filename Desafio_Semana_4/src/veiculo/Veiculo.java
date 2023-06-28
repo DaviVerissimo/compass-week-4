@@ -4,21 +4,21 @@ import combustivel.Combustivel;
 
 public abstract class Veiculo  implements Movimento {
 
-	protected boolean motor;
+	private boolean motor;
 
-	protected boolean volante;
+	private boolean volante;
 
-	protected boolean carga;
+	private boolean carga;
 
-	protected int quantidadePassageiros;
+	private int quantidadePassageiros;
 
-	protected int quantidadePortas;
+	private int quantidadePortas;
 
-	protected int quantidadeRodas;
+	private int quantidadeRodas;
 
-	protected int capacidadeCargaKG;
+	private int capacidadeCargaKG;
 
-	protected Combustivel combustivel;
+	private Combustivel combustivel;
 
 	public boolean isMotor() {
 		return motor;
